@@ -1,0 +1,81 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+a.nav-link {
+  color: hsl(229, 31%, 21%);
+}
+
+.landing {
+  height: calc(100vh - 56.5px);
+}
+
+.landing .btn {
+  box-shadow: 0 2px 4px rgba(0 0 0 / 30%);
+}
+
+.landing .img-cont {
+  position: relative;
+}
+
+.landing .img-cont::after {
+  content: "";
+  top: 20%;
+  right: -35%;
+  width: 100%;
+  height: 80%;
+  z-index: -1;
+  background-color: hsl(231, 69%, 60%);
+  position: absolute;
+  border-radius: 100px;
+}
+
+.featuers .buttons {
+  border-bottom: 1px solid hsl(229, 8%, 60%);
+  width: 65%;
+  margin: 0 auto;
+}
+
+.featuers button.btn {
+  border: none;
+  padding-bottom: 15px;
+  color: hsl(229, 8%, 60%);
+}
+
+.featuers button.btn.active {
+  position: relative;
+  color: hsl(229, 31%, 21%);
+}
+
+.featuers button.btn.active::before {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: hsl(0, 94%, 66%);
+  content: "";
+  bottom: -1px;
+  left: 0;
+}
+
+.featuers .img-cont {
+  position: relative;
+}
+
+.featuers .img-cont::after {
+  content: "";
+  top: 25%;
+  left: -35%;
+  width: 100%;
+  height: 80%;
+  z-index: -1;
+  background-color: hsl(231, 69%, 60%);
+  position: absolute;
+  border-radius: 100px;
+}
+
+#second,
+#third {
+  display: none;
+}
