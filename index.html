@@ -91,7 +91,7 @@
           Features
         </div>
         <p
-          class="text-center w-50 ms-auto me-auto"
+          class="text-center w-50 ms-auto me-auto info"
           style="color: hsl(229, 8%, 60%)"
         >
           Our aim is to make it quick and easy for you to access your favourite
@@ -196,17 +196,19 @@
           class="title text-center fs-3 fw-bold"
           style="color: hsl(229, 31%, 21%)"
         >
-          Extension
+          Download the extension
         </div>
         <p
-          class="text-center w-50 ms-auto me-auto"
+          class="text-center w-50 ms-auto me-auto info"
           style="color: hsl(229, 8%, 60%)"
         >
           We’ve got more browsers in the pipeline. Please do let us know if
           you’ve got a favourite you’d like us to prioritize.
         </p>
-        <div class="row grid gap-3 pt-5 pb-5 w-75 m-auto text-center">
-          <div class="col card" style="width: 18rem">
+        <div
+          class="row grid gap-3 pt-5 pb-5 w-100 justify-content-center m-auto text-center"
+        >
+          <div class="col-3 card">
             <div class="card-body">
               <img
                 src="images/logo-chrome.svg"
@@ -218,7 +220,7 @@
               <a href="#" class="btn btn-primary">Add & Install Extension</a>
             </div>
           </div>
-          <div class="col card" style="width: 18rem">
+          <div class="col-3 card">
             <div class="card-body">
               <img
                 src="images/logo-firefox.svg"
@@ -230,7 +232,7 @@
               <a href="#" class="btn btn-primary">Add & Install Extension</a>
             </div>
           </div>
-          <div class="col card" style="width: 10rem">
+          <div class="col-3 card">
             <div class="card-body">
               <img src="images/logo-opera.svg" class="mx-auto d-block" alt="" />
               <h5 class="card-title mt-2">Add to opera</h5>
@@ -242,45 +244,181 @@
       </div>
     </div>
 
-    <!--Frequently Asked Questions Here are some
-    of our FAQs. If you have any other questions you’d like answered please feel
-    free to email us.
+    <div class="faq pt-5 mt-5">
+      <div class="container text-center">
+        <div
+          class="title text-center fs-3 fw-bold"
+          style="color: hsl(229, 31%, 21%)"
+        >
+          Frequently Asked Questions
+        </div>
+        <p
+          class="text-center w-50 ms-auto me-auto info"
+          style="color: hsl(229, 8%, 60%)"
+        >
+          Here are some of our FAQs. If you have any other questions you’d like
+          answered please feel free to email us.
+        </p>
+        <div class="row pt-5">
+          <div class="col-lg-6 col-12 me-auto ms-auto">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    What is Bookmark?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce tincidunt justo eget ultricies fringilla. Phasellus
+                    blandit ipsum quis quam ornare mattis.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    How can I request a new browser?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Vivamus luctus eros aliquet convallis ultricies. Mauris
+                    augue massa, ultricies non ligula. Suspendisse imperdiet.
+                    Vivamus luctus eros aliquet convallis ultricies. Mauris
+                    augue massa, ultricies non ligula. Suspendisse imperdie
+                    tVivamus luctus eros aliquet convallis ultricies. Mauris
+                    augue massa, ultricies non ligula. Suspendisse imperdiet.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    Is there a mobile app?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Sed consectetur quam id neque fermentum accumsan. Praesent
+                    luctus vestibulum dolor, ut condimentum urna vulputate eget.
+                    Cras in ligula quis est pharetra mattis sit amet pharetra
+                    purus. Sed sollicitudin ex et ultricies bibendum.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    What about other Chromium browsers?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body">
+                    Integer condimentum ipsum id imperdiet finibus. Vivamus in
+                    placerat mi, at euismod dui. Aliquam vitae neque eget nisl
+                    gravida pellentesque non ut velit.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn btn-primary mt-3">More Info</div>
+      </div>
+    </div>
 
+    <div
+      class="forme pt-5 pb-5 mt-5 text-light"
+      style="background-color: hsl(231, 69%, 60%)"
+    >
+      <div class="container text-center">
+        <h6 class="join">35,000+ already joined</h6>
+        <h3 class="mt-4">
+          Stay up-to-date with what<br />
+          we’re doing
+        </h3>
+        <div class="contact mt-4">
+          <input
+            type="email"
+            class="email"
+            placeholder="Enter your email address"
+          />
+          <input type="button" class="btn btn-danger" value="Contact Us" />
+        </div>
+      </div>
+    </div>
 
-    What is Bookmark?
-
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
-    justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare
-    mattis.
-
-
-    How can I request a new browser?
-
-
-    Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
-    ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet
-    convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse
-    imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue
-    massa, ultricies non ligula. Suspendisse imperdiet.
-
-
-    Is there a mobile app?
-
-
-    Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum
-    dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra
-    mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.
-
-
-    What about other Chromium browsers?
-
-
-    Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at
-    euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut
-    velit. More Info 35,000+ already joined Stay up-to-date with what we’re
-    doing Contact Us Features Pricing Contact -->
-
+    <div class="footer" style="background-color: hsl(229, 31%, 21%)">
+      <div class="container">
+        <ul id="lastUl"class="m-0 d-flex text-light align-items-center p-4 justify-content-between" style="list-style: none">
+          <li class="me-5">
+            <img src="images/logo-bookmark-white.svg" alt="" />
+          </li>
+          <li class="me-4">
+            <a class="text-light" style="text-decoration: none; cursor: pointer;">Features</a>
+          </li>
+          <li class="me-4">
+            <a class="text-light" style="text-decoration: none; cursor: pointer;">Pricing</a>
+          </li>
+          <li class="me-4">
+            <a class="text-light" style="text-decoration: none; cursor: pointer;">Contact</a>
+          </li>
+          <li class="ms-auto social me-4" style="cursor:pointer">
+            <img src="images/icon-facebook.svg" alt="">
+          </li>
+          <li class="social" style="cursor:pointer">
+            <img src="images/icon-twitter.svg" alt="">   
+          </li>
+        </ul>
+      </div>
+    </div>
+    
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>

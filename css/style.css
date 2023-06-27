@@ -10,6 +10,7 @@ a.nav-link {
 
 .landing {
   height: calc(100vh - 56.5px);
+  overflow-x: hidden;
 }
 
 .landing .btn {
@@ -78,4 +79,83 @@ a.nav-link {
 #second,
 #third {
   display: none;
+}
+
+.card-body .btn.btn-primary {
+  width: 109%;
+  margin-left: -9px;
+  margin-top: 30px;
+}
+
+.row.grid .card {
+  width: 15rem;
+  height: 300px;
+  box-shadow: 0 2px 4px rgba(0 0 0 / 30%);
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.row.grid .card::after {
+  position: absolute;
+  content: url(../images/bg-dots.svg);
+  bottom: 88px;
+}
+
+.row.grid .card:nth-child(2) {
+  top: 20px;
+}
+.row.grid .card:last-child {
+  top: 40px;
+}
+
+.join {
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  font-size: 14px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 15px;
+  width: 25%;
+}
+
+.btn-danger {
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  #lastUl {
+    flex-direction: column;
+  }
+  #lastUl li {
+    margin: 0 !important;
+    margin-bottom: 15px !important;
+  }
+  .email {
+    width: 100% !important;
+  }
+  p.info {
+    width: 100% !important;
+  }
+  .featuers .container .row {
+    flex-direction: column;
+  }
+  .featuers .buttons{
+    border: none;
+  }
+}
+@media (min-width: 768px) {
+  p.info {
+    width: 50% !important;
+  }
 }
